@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 ReactDOM.render (
-<App/>
-,Document.getElementById("root"));
+    <React.StrictMode>
+    <App/>
+    </React.StrictMode>
+,Document.getElementById("root")
+)
 
